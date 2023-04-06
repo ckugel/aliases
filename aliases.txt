@@ -1,0 +1,10 @@
+alias glog='git log --graph --decorate --format="%C(cyan)%s%Creset %Cgreen%cd%Creset %C(yellow)%an%Creset"'
+alias bashback='cp ~/.bashrc ~/.bashrc.bak'
+alias restorebashback='cp ~/.bashrc.bak ~/.bashrc'
+alias refresh-bash='source ~/.bashrc'
+# this one depends on the system
+alias upgr='sudo dnf up'
+alias patches='glog -p'
+alias gstats='glog --stat'
+alias mnt="findmnt --fstab"
+alias gh='history|grep'
