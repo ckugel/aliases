@@ -8,3 +8,4 @@ alias patches='glog -p'
 alias gstats='glog --stat'
 alias mnt="findmnt --fstab"
 alias gh='history|grep'
+alias cpv='rsync -ah --info=progress2'
