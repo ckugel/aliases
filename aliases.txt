@@ -1,4 +1,4 @@
-alias glog='git log --graph --decorate --format="%C(cyan)%s%Creset %Cgreen%cd%Creset %C(yellow)%an%Creset %C(magenta)%d%Creset"'
+alias glog='git log --graph --decorate --format="%C(brightcyan)%s%Creset %C(brightgreen)%cd%Creset %C(brightyellow)%an%Creset %C(magenta)%d%Creset %C(brightred)%h%Creset" --date=format-local:"%Y-%m-%d %H:%M:%S"'
 alias bashback='cp ~/.bashrc ~/.bashrc.bak'
 alias restorebashback='cp ~/.bashrc.bak ~/.bashrc'
 alias refresh-bash='source ~/.bashrc'
