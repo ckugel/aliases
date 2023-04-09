@@ -9,3 +9,5 @@ alias gstats='glog --stat'
 alias mnt="findmnt --fstab"
 alias gh='history|grep'
 alias cpv='rsync -ah --info=progress2'
+alias ca='git commit -a' # should be used with a -m message after it
+alias gp='git push'
