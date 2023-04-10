@@ -1,4 +1,4 @@
-alias glog='git log --graph --decorate --format="%C(brightcyan)%s%Creset %C(brightgreen)%cd%Creset %C(brightyellow)%an%Creset %C(magenta)%d%Creset %C(brightred)%h%Creset" --date=format-local:"%Y-%m-%d %H:%M:%S"'
+alias glog='git log --graph --decorate --format="%C(yellow)%s%Creset %C(green)%cd%Creset %C(brightcyan)%an%Creset %C(brightmagenta)%d%Creset %C(brightyellow)%h%Creset" --date=format-local:"%Y-%m-%d %H:%M:%S"'
 alias bashback='cp ~/.bashrc ~/.bashrc.bak'
 alias restorebashback='cp ~/.bashrc.bak ~/.bashrc'
 alias refresh-bash='source ~/.bashrc'
@@ -11,3 +11,4 @@ alias gh='history|grep'
 alias cpv='rsync -ah --info=progress2'
 alias ca='git commit -a' # should be used with a -m message after it
 alias gp='git push'
+alias subm="cd src/main/java/frc/robot/Newman_Constants"
