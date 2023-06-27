@@ -1,7 +1,7 @@
 alias l='ls -CF'
 alias ll='ls -aLF'
 alias la='ls -A'
-
+alias fin='podman run  --detach  --label "io.containers.autoupdate=registry"  --name myjellyfin  --publish 8096:8096/tcp  --rm  --user $(id -u):$(id -g)  --userns keep-id  --volume jellyfin-cache:/cache:Z  --volume jellyfin-config:/config:Z  --mount type=bind,source=/mnt/bigssd/media,destination=/media,ro=true,relabel=private  docker.io/jellyfin/jellyfin:latest'
 alias glog='git log --graph --decorate --format="%C(cyan)%s%Creset %C(green)%cd%Creset %C(brightcyan)%an%Creset %C(brightmagenta)%d%Creset %C(brightyellow)%h%Creset" --date=format-local:"%Y-%m-%d %H:%M:%S"'
 alias bashback='cp ~/.bashrc ~/.bashrc.bak'
 alias restorebashback='cp ~/.bashrc.bak ~/.bashrc'
